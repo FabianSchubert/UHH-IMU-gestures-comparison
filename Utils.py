@@ -1,5 +1,5 @@
 import numpy as np 
-import Evaluation
+from . import Evaluation
 import random
 
 
@@ -44,10 +44,11 @@ def splitBySignals(dataStep):
         segments.append((iSegment,tSegement))
     return segments
 
-def shuffleDataStep(dataStep, nFolds, nRepeat=1):
+def shuffleDataStep(dataStep, nFolds, nRepeat=1, shuffle=True):
     segs = splitBySignals(dataStep)
     segs = segs * nRepeat
-    random.shuffle(segs)
+    if shuffle:
+        random.shuffle(segs)
     segs = [ segs[i::nFolds] for i in range(nFolds) ]
     dataStep=[]
     for segList in segs:

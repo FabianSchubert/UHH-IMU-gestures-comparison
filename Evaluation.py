@@ -6,9 +6,9 @@ from matplotlib.backends.backend_pdf import PdfPages
 from scipy.signal._peak_finding import argrelextrema
 import sklearn
 import sklearn.metrics
-from sklearn.metrics.ranking import roc_curve, auc
+from sklearn.metrics import roc_curve, auc
 import sklearn.preprocessing
-from scipy import interp
+from numpy import interp
 import Levenshtein
 from matplotlib.colors import LinearSegmentedColormap
 
