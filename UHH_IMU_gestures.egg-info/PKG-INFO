@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: UHH-IMU-gestures
+Version: 1.0.0
+Summary: A package providing IMU gesture data and tools for working with it. This is a fork of https://github.com/swtietz/UHH-IMU-gestures-comparison
+Home-page: https://github.com/FabianSchubert/UHH-IMU-gestures-comparison
+Author: Fabian Schubert
+Author-email: your@email.com
+License-File: LICENSE

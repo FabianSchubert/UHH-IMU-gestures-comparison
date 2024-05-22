@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+UHH_IMU_gestures.egg-info/PKG-INFO
+UHH_IMU_gestures.egg-info/SOURCES.txt
+UHH_IMU_gestures.egg-info/dependency_links.txt
+UHH_IMU_gestures.egg-info/top_level.txt
+gesture_dataset/DataSet.py
+gesture_dataset/EvaluateTestFile.py
+gesture_dataset/Evaluation.py
+gesture_dataset/Utils.py
+gesture_dataset/__init__.py
